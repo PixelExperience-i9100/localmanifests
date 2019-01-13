@@ -1,0 +1,46 @@
+# Pixel Experience Go #
+
+### Sync ###
+
+```bash
+
+# Initialize local repository
+$ repo init -u https://github.com/PixelExperience/manifest -b pie
+
+# Clone my local repo
+$ git clone https://github.com/PixelExperience-i9100/local_manifests.git -b pie-go .repo/local_manifests
+
+# Sync
+$ repo sync -c --force-sync --no-clone-bundle --no-tags
+```
+
+### Build ###
+
+```bash
+# Set up environment
+ $ . build/envsetup.sh
+
+# Edit go_defaults_common.mk and add this lines at final of file:
+ $ nano build/target/product/go_defaults_common.mk
+```
+
+```makefile
+# 512MB specific properties.
+
+# lmkd can kill more now.
+PRODUCT_PROPERTY_OVERRIDES += \
+     ro.lmk.medium=700 \
+
+# madvise random in ART to reduce page cache thrashing.
+PRODUCT_PROPERTY_OVERRIDES += \
+     dalvik.vm.madvise-random=true
+```     
+```bash
+- Save and exit of nano editor with ctrl+o ctrl+x
+
+# Choose a target
+ $ lunch aosp_i9100-userdebug
+
+# Build the code
+ $ mka bacon
+ ```
