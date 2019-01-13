@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="github"
+        fetch="https://github.com/" />
+
+<remote name="gitlab"
+        fetch="https://gitlab.com/" />        
+
+  <!-- Removals -->       
+  <remove-project name="bionic" />       
+  <remove-project name="vendor_aosp" />
+  <remove-project name="system_vold" />
+  <remove-project name="system_core" />      
+  <remove-project name="frameworks_av" />        
+  <remove-project name="frameworks_base" />
+  <remove-project name="frameworks_native" />     
+
+
+  <!-- Device -->
+  <project name="PixelExperience-i9100/device-tree/pie/device_samsung_i9100" path="device/samsung/i9100" remote="gitlab" revision="pie-go" />
+  <project name="PixelExperience-i9100/device-tree/pie/device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="gitlab" revision="pie-go" />
+
+  <!-- Kernel -->
+  <project name="rINanDO/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="lineage-16.0" />
+
+  <!-- Vendor -->
+  <project name="linusdan/proprietary_vendor_samsung" path="vendor/samsung" remote="gitlab" revision="lineage-16.0" />
+
+  <!-- Extras --> 
+  <project name="PixelExperience-i9100/bionic" path="bionic" remote="gitlab" revision="pie" />      
+  <project name="linusdan/hardware_samsung" path="hardware/samsung" remote="gitlab" revision="pie" />              
+  <project name="PixelExperience-i9100/vendor_aosp" path="vendor/aosp" remote="gitlab" revision="pie" />      
+  <project name="PixelExperience-i9100/frameworks_av" path="frameworks/av" remote="gitlab" revision="pie" />  
+  <project name="PixelExperience-i9100/frameworks_base" path="frameworks/base" remote="gitlab" revision="pie" />
+  <project name="PixelExperience-i9100/frameworks_native" path="frameworks/native" remote="gitlab" revision="pie" /> 
+  <project name="PixelExperience-i9100/specific-things/pie/system_vold" path="system/vold" remote="gitlab" revision="pie" />
+  <project name="PixelExperience-i9100/specific-things/pie/system_core" path="system/core" remote="gitlab" revision="pie" />     
+</manifest>
