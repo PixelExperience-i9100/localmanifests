@@ -8,7 +8,6 @@
         fetch="https://gitlab.com/" />        
 
   <!-- Removals -->       
-  <remove-project name="bionic" />       
   <remove-project name="vendor_aosp" />
   <remove-project name="system_vold" />
   <remove-project name="system_core" />      
@@ -27,8 +26,7 @@
   <!-- Vendor -->
   <project name="linusdan/proprietary_vendor_samsung" path="vendor/samsung" remote="gitlab" revision="lineage-16.0" />
 
-  <!-- Extras --> 
-  <project name="PixelExperience-i9100/bionic" path="bionic" remote="gitlab" revision="pie" />      
+  <!-- Extras -->     
   <project name="linusdan/hardware_samsung" path="hardware/samsung" remote="gitlab" revision="pie" />              
   <project name="PixelExperience-i9100/vendor_aosp" path="vendor/aosp" remote="gitlab" revision="pie" />      
   <project name="PixelExperience-i9100/frameworks_av" path="frameworks/av" remote="gitlab" revision="pie" />  
