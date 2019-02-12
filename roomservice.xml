@@ -7,7 +7,8 @@
 <remote name="gitlab"
         fetch="https://gitlab.com/" />        
 
-  <!-- Removals -->       
+  <!-- Removals -->
+  <remove-project name="build" />      
   <remove-project name="bionic" />       
   <remove-project name="vendor_aosp" />
   <remove-project name="system_vold" />
@@ -16,7 +17,18 @@
   <remove-project name="frameworks_base" />
   <remove-project name="frameworks_native" />     
 
-
+  <!-- build -->      
+  <project path="build/make" name="PixelExperience-i9100/build" remote="gitlab" revision="pie" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+   </project> 
+        
+        
   <!-- Device -->
   <project name="PixelExperience-i9100/device-tree/device_samsung_i9100" path="device/samsung/i9100" remote="gitlab" revision="pie-go" />
   <project name="PixelExperience-i9100/device-tree/device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="gitlab" revision="pie-go" />
