@@ -11,8 +11,7 @@
   <remove-project name="build" />       
   <remove-project name="vendor_aosp" />
   <remove-project name="system_vold" />
-  <remove-project name="system_core" />      
-  <remove-project name="frameworks_av" />        
+  <remove-project name="system_core" />           
   <remove-project name="frameworks_base" />
   <remove-project name="frameworks_native" />     
 
@@ -40,8 +39,7 @@
 
   <!-- Extras -->     
   <project name="linusdan/hardware_samsung" path="hardware/samsung" remote="gitlab" revision="pie" />              
-  <project name="PixelExperience-i9100/vendor_aosp" path="vendor/aosp" remote="gitlab" revision="pie" />      
-  <project name="PixelExperience-i9100/frameworks_av" path="frameworks/av" remote="gitlab" revision="pie" />  
+  <project name="PixelExperience-i9100/vendor_aosp" path="vendor/aosp" remote="gitlab" revision="pie" />       
   <project name="PixelExperience-i9100/frameworks_base" path="frameworks/base" remote="gitlab" revision="pie" />
   <project name="PixelExperience-i9100/frameworks_native" path="frameworks/native" remote="gitlab" revision="pie" /> 
   <project name="PixelExperience-i9100/specific-things/pie/system_vold" path="system/vold" remote="gitlab" revision="pie" />
