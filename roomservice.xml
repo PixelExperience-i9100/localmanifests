@@ -33,7 +33,7 @@
   <project name="rINanDO/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="lineage-16.0" />
 
   <!-- Vendor -->
-  <project name="linusdan/proprietary_vendor_samsung" path="vendor/samsung" remote="gitlab" revision="lineage-16.0" />
+  <project name="rINanDO/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="lineage-16.0" />
 
   <!-- Extras -->     
   <project name="linusdan/hardware_samsung" path="hardware/samsung" remote="gitlab" revision="pie" />                     
