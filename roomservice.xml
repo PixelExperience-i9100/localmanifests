@@ -8,12 +8,10 @@
         fetch="https://gitlab.com/" />        
 
   <!-- Removals -->
-  <remove-project name="build" />       
-  <remove-project name="vendor_aosp" />
+  <remove-project name="build" />
   <remove-project name="system_vold" />
   <remove-project name="system_core" />           
-  <remove-project name="frameworks_base" />
-  <remove-project name="frameworks_native" />     
+  <remove-project name="frameworks_base" />    
 
   <!-- build -->      
   <project path="build/make" name="PixelExperience-i9100/build" remote="gitlab" revision="pie" >
@@ -38,10 +36,8 @@
   <project name="linusdan/proprietary_vendor_samsung" path="vendor/samsung" remote="gitlab" revision="lineage-16.0" />
 
   <!-- Extras -->     
-  <project name="linusdan/hardware_samsung" path="hardware/samsung" remote="gitlab" revision="pie" />              
-  <project name="PixelExperience-i9100/vendor_aosp" path="vendor/aosp" remote="gitlab" revision="pie" />       
+  <project name="linusdan/hardware_samsung" path="hardware/samsung" remote="gitlab" revision="pie" />                     
   <project name="PixelExperience-i9100/frameworks_base" path="frameworks/base" remote="gitlab" revision="pie" />
-  <project name="PixelExperience-i9100/frameworks_native" path="frameworks/native" remote="gitlab" revision="pie" /> 
   <project name="PixelExperience-i9100/specific-things/pie/system_vold" path="system/vold" remote="gitlab" revision="pie" />
   <project name="PixelExperience-i9100/specific-things/pie/system_core" path="system/core" remote="gitlab" revision="pie" />     
 </manifest>
