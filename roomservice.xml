@@ -36,7 +36,7 @@
   <project name="rINanDO/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="lineage-16.0" />
 
   <!-- Extras -->     
-  <project name="linusdan/hardware_samsung" path="hardware/samsung" remote="gitlab" revision="pie" />                     
+  <project name="linusdan/hardware_samsung" path="hardware/samsung" remote="gitlab" revision="pie-pe" />                     
   <project name="PixelExperience-i9100/frameworks_base" path="frameworks/base" remote="gitlab" revision="pie" />
   <project name="PixelExperience-i9100/specific-things/pie/system_vold" path="system/vold" remote="gitlab" revision="pie" />
   <project name="PixelExperience-i9100/specific-things/pie/system_core" path="system/core" remote="gitlab" revision="pie" />     
