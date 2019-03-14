@@ -23,8 +23,8 @@
         
         
   <!-- Device -->
-  <project name="PixelExperience-i9100/device-tree/device_samsung_i9100" path="device/samsung/i9100" remote="gitlab" revision="pie-go" />
-  <project name="PixelExperience-i9100/device-tree/device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="gitlab" revision="pie-go" />
+  <project name="PixelExperience-i9100/device-tree/device_samsung_i9100" path="device/samsung/i9100" remote="gitlab" revision="pie" />
+  <project name="PixelExperience-i9100/device-tree/device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="gitlab" revision="pie" />
 
   <!-- Kernel -->
   <project name="linusdan/kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="gitlab" revision="pie-permissive" />
