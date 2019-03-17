@@ -30,7 +30,7 @@
   <project name="linusdan/kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="gitlab" revision="pie-permissive" />
 
   <!-- Vendor -->
-  <project name="rINanDO/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="lineage-16.0" />
+  <project name="linusdan/vendor_samsung" path="vendor/samsung" remote="github" revision="pie" />
 
   <!-- Extras -->     
   <project name="linusdan/hardware_samsung" path="hardware/samsung" remote="gitlab" revision="pie-pe" />                     
