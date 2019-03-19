@@ -6,7 +6,6 @@
 
   <!-- Removals -->
   <remove-project name="build" />
-  <remove-project name="system_vold" />
   <remove-project name="system_core" />           
   <remove-project name="frameworks_base" />    
 
@@ -35,6 +34,5 @@
   <!-- Extras -->     
   <project name="linusdan/hardware_samsung" path="hardware/samsung" remote="gitlab" revision="pie-pe" />                     
   <project name="PixelExperience-i9100/frameworks_base" path="frameworks/base" remote="gitlab" revision="pie" />
-  <project name="PixelExperience-i9100/specific-things/pie/system_vold" path="system/vold" remote="gitlab" revision="pie" />
   <project name="PixelExperience-i9100/specific-things/pie/system_core" path="system/core" remote="gitlab" revision="pie" />     
 </manifest>
