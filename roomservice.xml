@@ -28,14 +28,14 @@
         
 
   <!-- Device -->
-  <project name="PixelExperience-i9100/device-tree/device_samsung_i9100" path="device/samsung/i9100" remote="gitlab" revision="oreo-mr1" />
-  <project name="PixelExperience-i9100/device-tree/device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="gitlab" revision="oreo-mr1" />
+  <project name="PixelExperience-i9100/device-tree/device_samsung_i9100" path="device/samsung/i9100" remote="gitlab" revision="oreo-mr1-emu" />
+  <project name="PixelExperience-i9100/device-tree/device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="gitlab" revision="oreo-mr1-emu" />
 
   <!-- Kernel -->
-  <project name="rINanDO/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="lineage-15.1" />
+  <project name="linusdan/kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="gitlab" revision="oreo" />
 
   <!-- Vendor -->
-  <project name="linusdan/proprietary_vendor_samsung" path="vendor/samsung" remote="gitlab" revision="lineage-15.1" />
+  <project name="linusdan/vendor_samsung" path="vendor/samsung" remote="github" revision="oreo" />
 
   <!-- Extras -->     
   <project name="PixelExperience-i9100/bionic" path="bionic" remote="gitlab" revision="oreo-mr1" />      
@@ -44,6 +44,6 @@
   <project name="PixelExperience-i9100/frameworks_av" path="frameworks/av" remote="gitlab" revision="oreo-mr1" />  
   <project name="PixelExperience-i9100/frameworks_base" path="frameworks/base" remote="gitlab" revision="oreo-mr1" />
   <project name="PixelExperience-i9100/frameworks_native" path="frameworks/native" remote="gitlab" revision="oreo-mr1" />  
-  <project name="PixelExperience-i9100/specific-things/oreo/hardware_interfaces" path="hardware/interfaces" remote="gitlab" revision="oreo-mr1" />        
+  <project name="PixelExperience-i9100/specific-things/hardware_interfaces" path="hardware/interfaces" remote="gitlab" revision="oreo-mr1" />        
         
 </manifest>
