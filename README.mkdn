@@ -27,3 +27,9 @@ $ lunch aosp_i9100-userdebug
 # Build the code
 $ mka bacon
 ```
+### Maintenance ###
+No longer maintained.
+
+### Status ###
+Unofficial.  
+XDA thread: https://forum.xda-developers.com/galaxy-s2/development-derivatives/rom-pixel-experience-t3845188
