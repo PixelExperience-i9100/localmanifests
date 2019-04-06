@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-<remote name="github"
-        fetch="https://github.com/" />
-      
+        
+  <remote name="github" fetch="https://github.com/" />
+        
+  <!-- Removals -->
+  <remove-project name="system_sepolicy" />
+        
   <!-- Device -->
-  <project name="PixelExperience-i9100/device-tree/device_samsung_i9100" path="device/samsung/i9100" remote="gitlab" revision="pie" />
-  <project name="PixelExperience-i9100/device-tree/device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="gitlab" revision="pie" />
+  <project name="PixelExperience-i9100/device_samsung_i9100" path="device/samsung/i9100" remote="github" revision="pie" />
+  <project name="PixelExperience-i9100/device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="github" revision="pie" />
 
   <!-- Kernel -->
   <project name="linusdan/kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="gitlab" revision="pie" />
@@ -15,5 +17,6 @@
   <project name="linusdan/vendor_samsung" path="vendor/samsung" remote="github" revision="pie" />
 
   <!-- Extras -->     
-  <project name="linusdan/hardware_samsung" path="hardware/samsung" remote="github" revision="pie" />     
+  <project name="linusdan/hardware_samsung" path="hardware/samsung" remote="github" revision="pie" />
+  <project name="PixelExperience-i9100/system_sepolicy" path="system/sepolicy" remote="github" revision="pie" />    
 </manifest>
