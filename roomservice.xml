@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-        
-  <remote name="github" fetch="https://github.com/" />
-        
-  <!-- Removals -->        
-  <remove-project name="frameworks_base" />
-  <remove-project name="frameworks_native" />        
+  <remote name="github" fetch="https://github.com/" />        
         
   <!-- Device -->
   <project name="PixelExperience-i9100/device_samsung_i9100" path="device/samsung/i9100" remote="github" revision="pie" />
@@ -19,6 +14,4 @@
 
   <!-- Extras -->     
   <project name="linusdan/hardware_samsung" path="hardware/samsung" remote="gitlab" revision="pie-omni" />
-  <project name="PixelExperience-i9100/frameworks_base" path="frameworks/base" remote="github" revision="pie" />      
-  <project name="PixelExperience-i9100/frameworks_native" path="frameworks/native" remote="github" revision="pie" />      
 </manifest>

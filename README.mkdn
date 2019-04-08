@@ -12,6 +12,11 @@ $ git clone https://github.com/PixelExperience-i9100/local_manifests.git -b pie-
 
 # Sync
 $ repo sync -c --force-sync --no-clone-bundle --no-tags
+
+# Apply patches to the newly synced sources:
+$ . build/envsetup.sh
+$ bash local_manifests/fetch.sh
+$ bash local_manifests/apply.sh
 ```
 
 ### Build ###
