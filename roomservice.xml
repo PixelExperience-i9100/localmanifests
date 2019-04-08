@@ -18,7 +18,7 @@
   <project name="linusdan/vendor_samsung" path="vendor/samsung" remote="github" revision="pie" />
 
   <!-- Extras -->     
-  <project name="linusdan/hardware_samsung" path="hardware/samsung" remote="github" revision="pie" />
+  <project name="linusdan/hardware_samsung" path="hardware/samsung" remote="gitlab" revision="pie-omni" />
   <project name="PixelExperience-i9100/frameworks_base" path="frameworks/base" remote="github" revision="pie" />      
   <project name="PixelExperience-i9100/frameworks_native" path="frameworks/native" remote="github" revision="pie" />      
 </manifest>
