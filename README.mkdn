@@ -5,7 +5,7 @@
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/PixelExperience/manifest -b oreo-mr1
+repo init -u https://gitlab.com/PixelExperience-ASB/manifest -b oreo-mr1
 
 # Clone my local repo
 git clone https://github.com/PixelExperience-i9100/local_manifests.git -b oreo-go .repo/local_manifests
@@ -28,8 +28,8 @@ $ lunch aosp_i9100-userdebug
 $ mka bacon
 ```
 ### Maintenance ###
-No longer maintained.
+Maintained only to ASB patches
 
 ### Status ###
-Unofficial.  
+Eternally unofficial.  
 XDA thread: https://forum.xda-developers.com/galaxy-s2/development-derivatives/rom-pixel-experience-t3845188
