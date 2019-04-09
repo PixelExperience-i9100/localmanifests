@@ -3,8 +3,8 @@
   <remote name="github" fetch="https://github.com/" />        
         
   <!-- Device -->
-  <project name="PixelExperience-i9100/device_samsung_i9100" path="device/samsung/i9100" remote="github" revision="pie" />
-  <project name="PixelExperience-i9100/device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="github" revision="pie" />
+  <project name="PixelExperience-i9100/device_samsung_i9100-dev" path="device/samsung/i9100" remote="github" revision="pie" />
+  <project name="PixelExperience-i9100/device_samsung_galaxys2-common-dev" path="device/samsung/galaxys2-common" remote="github" revision="pie" />
 
   <!-- Kernel -->
   <project name="linusdan/kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="gitlab" revision="pie" />
