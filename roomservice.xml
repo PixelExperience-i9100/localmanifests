@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="github" fetch="https://github.com/" />        
-        
+  <remote name="github" fetch="https://github.com/" />
+  
+  <remove-project name="system_sepolicy" />     
+  
   <!-- Device -->
   <project name="PixelExperience-i9100/device_samsung_i9100-dev" path="device/samsung/i9100" remote="github" revision="pie" />
   <project name="PixelExperience-i9100/device_samsung_galaxys2-common-dev" path="device/samsung/galaxys2-common" remote="github" revision="pie" />
