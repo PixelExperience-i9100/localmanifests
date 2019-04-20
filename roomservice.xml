@@ -8,7 +8,7 @@
   
   <!-- Device -->
   <project name="PixelExperience-i9100/device_samsung_i9100-dev" path="device/samsung/i9100" remote="github" revision="pie" />
-  <project name="PixelExperience-i9100/device_samsung_galaxys2-common-dev" path="device/samsung/galaxys2-common" remote="github" revision="next" />
+  <project name="PixelExperience-i9100/device_samsung_galaxys2-common-dev" path="device/samsung/galaxys2-common" remote="github" revision="next-next" />
 
   <!-- Kernel -->
   <project name="carbonwhatever/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cr-7.0" />
