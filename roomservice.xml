@@ -17,7 +17,7 @@
   <project name="linusdan/vendor_samsung" path="vendor/samsung" remote="github" revision="pie" />
 
   <!-- Extras -->     
-  <project name="linusdan/hardware_samsung" path="hardware/samsung" remote="github" revision="pie" />
+  <project name="carbonwhatever/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cr-7.0" />
   <project name="PixelExperience-i9100/frameworks_av" path="frameworks/av" remote="github" revision="pie" />
   
   <!-- LiveDisplay -->
