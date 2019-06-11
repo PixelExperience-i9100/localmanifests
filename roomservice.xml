@@ -10,14 +10,14 @@
   <project name="PixelExperience-Devices/device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="github" revision="pie" />
 
   <!-- Kernel -->
-  <project name="carbonwhatever/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cr-7.0" />
+  <project name="CarbonROM/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cr-7.0" />
 
   <!-- Vendor -->
   <project name="linusdan/vendor_samsung" path="vendor/samsung" remote="github" revision="pie" />
 
   <!-- Extras -->     
-  <project name="carbonwhatever/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cr-7.0" />
-  <project name="dot-i9300/packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="pie" />
+  <project name="linusdan/hardware_samsung" path="hardware/samsung" remote="github" revision="pie" />
+  <project name="linusdan/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="lineage-16.0" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
   
   <!-- Policy -->
