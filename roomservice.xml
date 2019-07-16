@@ -8,8 +8,7 @@
         fetch="https://gitlab.com/" />        
 
   <!-- Removals -->      
-  <remove-project name="bionic" />       
-  <remove-project name="frameworks_base" />
+  <remove-project name="bionic" />
   <remove-project name="frameworks_native" />       
 
   <!-- Device -->
@@ -25,7 +24,6 @@
   <!-- Extras -->
   <project name="linusdan/hardware_samsung" path="hardware/samsung" remote="gitlab" revision="oreo" />
   <project name="PixelExperience-ASB/bionic" path="bionic" remote="gitlab" revision="oreo-mr1-i9100" />
-  <project name="PixelExperience-ASB/frameworks_base" path="frameworks/base" remote="gitlab" revision="oreo-mr1-i9100" />
   <project name="PixelExperience-ASB/frameworks_native" path="frameworks/native" remote="gitlab" revision="oreo-mr1-i9100" />        
         
 </manifest>
