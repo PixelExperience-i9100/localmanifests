@@ -7,22 +7,11 @@
 <remote name="gitlab"
         fetch="https://gitlab.com/" />        
 
-  <!-- Removals -->
-  <remove-project name="build" />      
+  <!-- Removals -->      
   <remove-project name="bionic" />    
   <remove-project name="frameworks_av" />        
   <remove-project name="frameworks_base" />
-  <remove-project name="frameworks_native" />
-
-  <project path="build/make" name="PixelExperience-ASB/build" remote="gitlab" revision="oreo-mr1-i9100" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-    <linkfile src="core" dest="build/core" />
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-    <linkfile src="target" dest="build/target" />
-    <linkfile src="tools" dest="build/tools" />
-   </project>       
+  <remove-project name="frameworks_native" />       
 
   <!-- Device -->
   <project name="PixelExperience-ASB/devices/device_samsung_i9100" path="device/samsung/i9100" remote="gitlab" revision="oreo-mr1" />
