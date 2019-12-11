@@ -1,10 +1,10 @@
-# Pixel Experience Go (Dev) #
+# Pixel Experience (Pie & Plus Edition) #
 
 ### Sync ###
 
 ```bash
 
-# Initialize local repository
+# Initialize local repository (if Plus Edition, change to pie-plus)
 $ repo init -u https://github.com/PixelExperience/manifest -b pie
 
 # Clone my local repo
@@ -26,3 +26,6 @@ $ repo sync -c --force-sync --no-clone-bundle --no-tags
 # Build the code
  $ mka bacon
  ```
+
+### Status ###
+Stable. No longer maintained
